@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Odisha Tourism</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Odisha<span>Tourism</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="dropbtn nav-link">Places
+                            <span class="arrow">&#9662;</span>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="#PopularFocus">Popular Places</a>
+                            <a href="#MountainsFocus">Mountains</a>
+                            <a href="#TemplesFocus">Temples</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Explore Odisha </h1> <h1> Soul of Incredible India</h1>
+                <p>Discover the rich culture, stunning landscapes, beautiful temples, and serene beaches of Odisha. Your journey awaits!</p>
+            </div>
+            <!-- <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                    </form>
+                </div> -->
+            <!-- <input type="submit" class="btn" value="Search"> -->
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <span id="PopularFocus"></span>
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Explore the famous cities of Odisha</span>
+                <h2 class="lg-title">Popular Cities in Odisha</h2>
+            </div>
+
+            <div class="featured-row">
+                <!-- Bhubaneswar -->
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Bhubaneswar.jpg" alt="Bhubaneswar">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Bhubaneswar, Odisha
+                        </span>
+                        <div>
+                            <p class="text">The capital city known as the Temple City of India, famous for its ancient
+                                temples like Lingaraj Temple and vibrant cultural heritage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Puri -->
+                <div class="featured-item my-2 shadow">
+                    <img src="images/puri.jpeg" alt="Puri">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Puri, Odisha
+                        </span>
+                        <div>
+                            <p class="text">A coastal city renowned for the Jagannath Temple and its beautiful golden
+                                beaches attracting thousands of pilgrims and tourists.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuttack -->
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Cuttack.jpeg" alt="Cuttack">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Cuttack, Odisha
+                        </span>
+                        <div>
+                            <p class="text">Known as the Silver City, Cuttack is famous for its intricate silver
+                                filigree work and rich cultural heritage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rourkela -->
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Rourkela.jpeg" alt="Rourkela">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Rourkela, Odisha
+                        </span>
+                        <div>
+                            <p class="text">An industrial city known for the Rourkela Steel Plant and picturesque
+                                natural surroundings including hills and rivers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sambalpur -->
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Sambalpur.jpeg" alt="Sambalpur">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Sambalpur, Odisha
+                        </span>
+                        <div>
+                            <p class="text">Famous for the Hirakud Dam, Sambalpuri sarees, and rich tribal culture. A
+                                major hub of art and tradition.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berhampur -->
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Berhampur.jpg" alt="Berhampur">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Berhampur, Odisha
+                        </span>
+                        <div>
+                            <p class="text">Popularly known as the Silk City, Berhampur is famous for its silk sarees,
+                                delicious seafood, and cultural heritage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+       <!-- Popular Mountains in Odisha Section -->
+       <span id="MountainsFocus" class="focus"></span>
+       <section id="popular-mountains" class="py-4">
+        <div class="title-wrap">
+            <h2 class="lg-title">Popular Mountains</h2>
+        </div>
+
+        <div class="popular-row">
+            <!-- <div class="popular-item shadow">
+            <img src="images/mountain-1.jpg" alt="">
+            <div>
+                <span>Mahendragiri, Gajapati</span>
+                <ul class="rating flex">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star-half-alt"></i></li>
+                    <li>&nbsp;350 reviews</li>
+                </ul>
+                <p class="text">Mahendragiri, the second-highest peak in Odisha, offers stunning views and rich mythology associated with the Pandavas.</p>
+            </div>
+        </div> -->
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-1.jpg" alt="">
+                <div class="name-overlay">Mahendragiri</div>
+                <div class="content">
+                    <span>Mahendragiri, Gajapati</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;350 reviews</li>
+                    </ul>
+                    <p class="text">Mahendragiri, the second-highest peak in Odisha, offers stunning views and rich
+                        mythology associated with the Pandavas.</p>
+                </div>
+            </div>
+
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-2.jpg" alt="">
+                <div class="name-overlay">Daringbadi</div>
+                <div>
+                    <span>Daringbadi, Kandhamal</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">Known as the ‘Kashmir of Odisha’, Daringbadi is a hill station offering beautiful
+                        valleys, coffee gardens, and pine forests.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-3.jpg" alt="">
+                <div class="name-overlay">Deomali</div>
+                <div>
+                    <span>Deomali, Koraput</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;450 reviews</li>
+                    </ul>
+                    <p class="text">The highest peak in Odisha, Deomali offers adventure trekking, panoramic views, and
+                        scenic beauty.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-4.jpg" alt="">
+                <div class="name-overlay">Niyamgiri</div>
+                <div>
+                    <span>Niyamgiri Hills, Rayagada</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;300 reviews</li>
+                    </ul>
+                    <p class="text">Niyamgiri Hills are known for their rich biodiversity and cultural significance to
+                        the Dongria Kondh tribe.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-5.jpg" alt="">
+                <div class="name-overlay">Gandhamardhan</div>
+                <div>
+                    <span>Gandhamardhan Hills, Bargarh/Balangir</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;320 reviews</li>
+                    </ul>
+                    <p class="text">A place of natural beauty and mythological importance, Gandhamardhan Hills offer
+                        trekking and medicinal plant research opportunities.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-6.jpg" alt="">
+                <div class="name-overlay">Malayagiri</div>
+                <div>
+                    <span>Malayagiri, Angul</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;280 reviews</li>
+                    </ul>
+                    <p class="text">Malayagiri, the third highest peak in Odisha, is popular for its lush greenery and
+                        thrilling trekking trails.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-7.jpg" alt="">
+                <div class="name-overlay">Simlipal</div>
+                <div>
+                    <span>Simlipal Hills, Mayurbhanj</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;360 reviews</li>
+                    </ul>
+                    <p class="text">Home to the famous Simlipal National Park, these hills offer diverse wildlife,
+                        beautiful waterfalls, and dense forests.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/mountain-8.jpg" alt="">
+                <div class="name-overlay">Satkosia</div>
+                <div>
+                    <span>Satkosia Gorge, Angul</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;310 reviews</li>
+                    </ul>
+                    <p class="text">Satkosia Gorge is a picturesque spot surrounded by hills, known for its beautiful
+                        river views and rich wildlife.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Popular Mountains in Odisha Section -->
+
+    <!-- popular places section -->
+    <span id="TemplesFocus" class="focus"></span>
+    <section id="popular" class="py-4">
+        <div class="title-wrap">
+            <h2 class="lg-title">Temples</h2>
+        </div>
+
+        <div class="popular-row">
+            <div class="popular-item shadow">
+                <img src="images/popular-1.jpg" alt="">
+                <div class="name-overlay">jagannath temple</div>
+                <div>
+                    <span>jagannath temple, Puri</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">The Jagannath Temple in Puri, India is a revered pilgrimage site and architectural
+                        marvel.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/popular-2.jpg" alt="">
+                <div class="name-overlay">lingaraj temple</div>
+                <div>
+                    <span>lingaraj temple,Bhubaneswar</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">It is one of the oldest and most revered temples in Odisha. This temple is dedicated
+                        to not one but two primary deities, Lord Shiva and Lord Vishnu.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/popular-3.jpg" alt="">
+                <div class="name-overlay">Sun Tample</div>
+                <div>
+                    <span>Sun Tample, Konark</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">The Konark Sun Temple is famous for its stunning architecture, intricate stone
+                        carvings, and its design as a massive chariot of the Sun God</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/popular-4.jpg" alt="">
+                <div class="name-overlay">Samaleswari Temple</div>
+                <div>
+                    <span>Samaleswari Temple, Sambalpur</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">Samaleswari Temple is a Hindu temple in Sambalpur, Odisha, India, dedicated to the
+                        goddess known as 'Samaleswari'</p>
+                </div>
+            </div>
+
+
+            <div class="popular-item shadow">
+                <img src="images/popular-5.jpg" alt="">
+                <div class="name-overlay">Mahadev Chandrashekhar Temple</div>
+                <div>
+                    <span>Mahadev Chandrashekhar Temple , Kapilash</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">Kapilash Temple, also known as Mahadev Chandrashekhar Temple, is situated in the
+                        north eastern part of Dhenkanal town, Odisha</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/popular-6.jpg" alt="">
+                <div class="name-overlay">Rajarani Temple</div>
+                <div>
+                    <span>Rajarani Temple, Bhubaneswar</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">Rajarani Temple is an 11th-century CE Hindu temple located in Bhubaneswar, the
+                        capital city of Odisha,</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/popular-7.jpg" alt="">
+                <div class="name-overlay">The Leaning Temple</div>
+                <div>
+                    <span>The Leaning Temple, Huma</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">It is located in Huma, a village situated on the bank of the Mahanadi, 23 km south
+                        of Sambalpur in the Indian state of Odisha.</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/popular-8.jpg" alt="">
+                <div class="name-overlay">Mukteshwar Mahadev Temple</div>
+                <div>
+                    <span>Mukteshwar Mahadev Temple, Bhubaneswar</span>
+                    <ul class="rating flex">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class="text">Mukteshwara Temple is a 10th-century Hindu temple dedicated to Shiva located in
+                        Bhubaneswar, Odisha,</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of popular places section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">What tourists say about Odisha</span>
+                <h2 class="lg-title">Testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">“Exploring Puri’s golden beaches and witnessing the magnificent Jagannath Temple was
+                        a spiritual and serene experience. The hospitality was amazing!”</p>
+                    <div class="test-item-info">
+                        <img src="images/rohit-sharma.jpeg" alt="testimonial">
+                        <div>
+                            <h3>Rohit Sharma</h3>
+                            <p class="text">Trip to Puri</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">“The architectural brilliance of Konark’s Sun Temple left me speechless. A
+                        must-visit for anyone who appreciates history and beauty!”</p>
+                    <div class="test-item-info">
+                        <img src="images/rahul-raman.jpg" alt="testimonial">
+                        <div>
+                            <h3>Rahul Raman</h3>
+                            <p class="text">Trip to Konark</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">“Chilika Lake’s beauty is beyond words. The boat ride and spotting dolphins were
+                        magical. Odisha truly has hidden gems!”</p>
+                    <div class="test-item-info">
+                        <img src="images/poonam-panda.jpg" alt="testimonial">
+                        <div>
+                            <h3>Poonam Panda</h3>
+                            <p class="text">Trip to Chilika Lake</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video id="tourismVideo" loop autoplay muted>
+                <source src="videos/video-section.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+<footer class="py-4 odisha-footer">
+    <div class="container footer-row">
+        <!-- Branding & Description -->
+        <div class="footer-item">
+            <a href="index.html" class="site-brand">
+                Odisha<span>Tourism</span>
+            </a>
+            <p class="text">Experience the beauty and culture of Odisha – From majestic temples and pristine beaches to lush hills and vibrant festivals.</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-item">
+            <h2>Follow us on:</h2>
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Popular Destinations -->
+        <div class="footer-item">
+            <h2>Popular Destinations:</h2>
+            <ul>
+                <li><a href="#">Puri</a></li>
+                <li><a href="#">Konark</a></li>
+                <li><a href="#">Bhubaneswar</a></li>
+                <li><a href="#">Chilika Lake</a></li>
+                <li><a href="#">Simlipal</a></li>
+            </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="subscribe-form footer-item">
+            <h2>Thank For Visiting!</h2>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+
+
+    <!-- js -->
+    <script>
+        window.addEventListener('load', function(){
+    var newVideo = document.getElementById('tourismVideo');
+    newVideo.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+
+    newVideo.play();
+
+});
+    </script>
+</body>
+
+</html>
